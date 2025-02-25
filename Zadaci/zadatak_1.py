@@ -1,0 +1,8 @@
+print("Dobro došli u Tajni Kod!")
+color = input("Unesite svoju omiljenu boju: ").upper()
+color_number = len(color)
+number = input("Unesite omiljeni broj: ")
+animal = input("Unesite naziv životinje: ").upper()
+animal_number = len(animal)
+final_number = (color_number + int(number) + animal_number)
+print(f"Vaša šifra je: {color}_{final_number}_{animal}")
